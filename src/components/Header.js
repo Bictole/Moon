@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import { Translate } from '@mui/icons-material';
+import { selectThemes } from '../features/theme/themeSlice'
+import { useSelector } from 'react-redux';
 
 
 const Container = styled.div`
@@ -88,6 +89,8 @@ justify-content: flex-end;
 
 function Header() {
     const [burgerStatus, setBurgerStatus] = useState(false);
+    const themes = useSelector(selectThemes);
+    console.log(themes)
 
     return (
         <Container>
@@ -96,11 +99,9 @@ function Header() {
             </a>
 
             <Menu>
-                <a href='#'>Facility</a>
-                <a href='#'>Energy</a>
-                <a href='#'>Timeline</a>
-                <a href='#'>Money</a>
-
+                {themes && themes.map((theme, index) => (
+                    <a key={index} href='#'>{theme}</a>
+                ))}
             </Menu>
 
             <RightMenu>
@@ -114,15 +115,17 @@ function Header() {
                 <CloseWrapper>
                     <CustomClose onClick={() => setBurgerStatus(false)}/>
                 </CloseWrapper>
+                
+                
+                {themes && themes.map((theme, index) => (
+                    <li><a key={index} href='#'>{theme}</a></li>
+                ))}
+                
+                <li><a href='#'>Aled</a></li>
+                <li><a href='#'>Aled</a></li>
+                <li><a href='#'>Aled</a></li>
+                <li><a href='#'>Aled</a></li>
 
-                <li><a href='#'>Aled</a></li>
-                <li><a href='#'>Aled</a></li>
-                <li><a href='#'>Aled</a></li>
-                <li><a href='#'>Aled</a></li>
-                <li><a href='#'>Aled</a></li>
-                <li><a href='#'>Aled</a></li>
-                <li><a href='#'>Aled</a></li>
-                <li><a href='#'>Aled</a></li>
             </BurgerNav>
 
         </Container>
