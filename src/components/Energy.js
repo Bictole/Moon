@@ -1,8 +1,15 @@
 import React from 'react'
 
+import Section from './Section'
+
 function Energy() {
   return (
-    <div>Energy</div>
+    <Section 
+            title="Energy"
+            description="How to provide energy to our Moon Cloud ?"
+            backgroundImg=""
+            leftBtnText="Lorem Ipsum"
+    />
   )
 }
 
