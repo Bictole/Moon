@@ -89,8 +89,6 @@ justify-content: flex-end;
 
 function Header() {
     const [burgerStatus, setBurgerStatus] = useState(false);
-    const themes = useSelector(selectThemes);
-    console.log(themes)
 
     return (
         <Container>
@@ -99,14 +97,15 @@ function Header() {
             </a>
 
             <Menu>
-                {themes && themes.map((theme, index) => (
-                    <a key={index} href='#'>{theme}</a>
-                ))}
+                <a href='/Energy'>Energy</a>
+                <a href='/Timeline'>Timeline</a>
+                <a href='/Facility'>Facility</a>
+                <a href='/Aled'>Aled</a>
             </Menu>
 
             <RightMenu>
                 <a href='/Team'>Team</a>
-                <a href='#'>Hackathon</a>
+                <a href='/Hackathon'>Hackathon</a>
                 <CustomMenu onClick={() => setBurgerStatus(true)}/>
             </RightMenu>
 
@@ -116,15 +115,15 @@ function Header() {
                     <CustomClose onClick={() => setBurgerStatus(false)}/>
                 </CloseWrapper>
                 
-                
-                {themes && themes.map((theme, index) => (
-                    <li><a key={index} href='#'>{theme}</a></li>
-                ))}
-                
-                <li><a href='#'>Aled</a></li>
-                <li><a href='#'>Aled</a></li>
-                <li><a href='#'>Aled</a></li>
-                <li><a href='#'>Aled</a></li>
+                <li><a href='/Energy'>Energy</a></li>
+                <li><a href='/Timeline'>Timeline</a></li>
+                <li><a href='/Facility'>Facility</a></li>
+                <li><a href='/Aled'>Aled</a></li>
+
+                <li><a href='/Aled'>Aled</a></li>
+                <li><a href='/Aled'>Aled</a></li>
+                <li><a href='/Aled'>Aled</a></li>
+                <li><a href='/Aled'>Aled</a></li>
 
             </BurgerNav>
 
