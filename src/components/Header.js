@@ -105,7 +105,7 @@ function Header() {
             </Menu>
 
             <RightMenu>
-                <a href='#'>Team</a>
+                <a href='/Team'>Team</a>
                 <a href='#'>Hackathon</a>
                 <CustomMenu onClick={() => setBurgerStatus(true)}/>
             </RightMenu>
