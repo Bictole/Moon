@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import { NavLink } from 'react-router-dom'
 
+import LogoComponent from './LogoComponent'
 
 
 const Container = styled.div`
@@ -87,26 +87,12 @@ display: flex;
 justify-content: flex-end;
 `
 
-const Logo = styled.h1`
-display: inline-block;
-font-family: 'Pacifico',cursive;
-z-index:3;
-transition: transform .2s;
-&:hover {
-  transform: scale(1.2);
-}
-`
-
 function Header() {
     const [burgerStatus, setBurgerStatus] = useState(false);
 
     return (
         <Container>
-            <NavLink to="/">
-                <Logo>
-                    MOON
-                </Logo>
-            </NavLink>
+            <LogoComponent/>
 
             <Menu>
                 <a href='/Energy'>Energy</a>
