@@ -1,10 +1,10 @@
 import React from 'react'
 
-import Section from './Section'
+import Page from './Page'
 
 function Energy() {
   return (
-    <Section 
+    <Page 
             title="Energy"
             description="How to provide energy to our Moon Cloud ?"
             backgroundImg=""
