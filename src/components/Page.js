@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import Fade from 'react-reveal/Fade'
 
+import LogoComponent from './LogoComponent'
+
 const Wrap = styled.div`
 width: 100vw;
 height: 100vh;
@@ -63,6 +65,8 @@ const Buttons = styled.div`
 
 function Page({title, description, leftBtnText, rightBtnText, backgroundImg}) {
     return (
+        <>
+        <LogoComponent/>
         <Wrap bgImage={backgroundImg}>
             <Fade bottom>
                 <ItemText>
@@ -87,6 +91,7 @@ function Page({title, description, leftBtnText, rightBtnText, backgroundImg}) {
             </Buttons>
         
         </Wrap>
+        </>
     )
 }
 
