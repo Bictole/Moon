@@ -7,6 +7,8 @@ import Energy from "./components/Energy"
 import Timeline from './components/Timeline'
 import Facility from './components/Facility';
 
+import Team from './components/Team';
+
 function App() {
 
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route exact path='/energy' element={<Energy />} />
         <Route exact path='/timeline' element={<Timeline />} />
         <Route exact path='/facility' element={<Facility />} />
+
+        <Route exact path='/team' element={<Team />} />
       </Routes>
     </Router>
     
