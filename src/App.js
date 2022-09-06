@@ -8,6 +8,7 @@ import Timeline from './components/Timeline'
 import Facility from './components/Facility';
 
 import Team from './components/Team';
+import Hackathon from './components/Hackathon';
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
         <Route exact path='/facility' element={<Facility />} />
 
         <Route exact path='/team' element={<Team />} />
+        <Route exact path='/hackathon' element={<Hackathon />} />
+
       </Routes>
     </Router>
     

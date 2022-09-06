@@ -8,7 +8,7 @@ function Energy() {
             title="Energy"
             description="How to provide energy to our Moon Cloud ?"
             backgroundImg=""
-            leftBtnText="Lorem Ipsum"
+            leftBtnText="Solar Or Nuclear"
     />
   )
 }

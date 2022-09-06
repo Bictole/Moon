@@ -8,7 +8,7 @@ function Timeline() {
             title="Timeline"
             description="The timeline of the DataCenter launch"
             backgroundImg=""
-            leftBtnText="Lorem Ipsum"
+            leftBtnText="Our previsional program !"
     />
   )
 }

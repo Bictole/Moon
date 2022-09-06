@@ -8,7 +8,7 @@ function Team() {
             title="Team"
             description="Here is the Engineer Team on the Project"
             backgroundImg=""
-            leftBtnText="Lorem Ipsum"
+            leftBtnText="Victor Enguerrand Clément Oscar"
     />
   )
 }
