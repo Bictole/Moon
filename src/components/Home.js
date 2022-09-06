@@ -14,16 +14,16 @@ function Home() {
             title="MOON"
             description="Beyond The Cloud"
             backgroundImg="model-s.jpg"
-            leftBtnText="Lorem Ipsum"
-            rightBtnText="Lorem Ipsum"
+            leftBtnText="Moon Operating"
+            rightBtnText="Online Network"
         />
 
         <Section 
             title="MOON 2"
             description="Beyond The Cloud"
             backgroundImg="model-y.jpg"
-            leftBtnText="Lorem Ipsum"
-            rightBtnText="Lorem Ipsum"
+            leftBtnText="A Mission"
+            rightBtnText="Above the Cloud"
         />
 
         <Section 
