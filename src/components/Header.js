@@ -98,7 +98,6 @@ function Header() {
                 <a href='/Energy'>Energy</a>
                 <a href='/Timeline'>Timeline</a>
                 <a href='/Facility'>Facility</a>
-                <a href='/Aled'>Aled</a>
             </Menu>
 
             <RightMenu>
@@ -116,13 +115,7 @@ function Header() {
                 <li><a href='/Energy'>Energy</a></li>
                 <li><a href='/Timeline'>Timeline</a></li>
                 <li><a href='/Facility'>Facility</a></li>
-                <li><a href='/Aled'>Aled</a></li>
-
-                <li><a href='/Aled'>Aled</a></li>
-                <li><a href='/Aled'>Aled</a></li>
-                <li><a href='/Aled'>Aled</a></li>
-                <li><a href='/Aled'>Aled</a></li>
-
+          
             </BurgerNav>
 
         </Container>
