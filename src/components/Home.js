@@ -21,7 +21,7 @@ function Home() {
         <Section 
             title="MOON 2"
             description="Beyond The Cloud"
-            backgroundImg="model-y.jpg"
+            backgroundImg="ceo.png"
             leftBtnText="A Mission"
             rightBtnText="Above the Cloud"
         />
