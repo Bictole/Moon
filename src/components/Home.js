@@ -29,7 +29,7 @@ function Home() {
         <Section 
             title="MOON 3"
             description="Beyond The Cloud"
-            backgroundImg="model-3.jpg"
+            backgroundImg="rocket.png"
             leftBtnText="Lorem Ipsum"
             rightBtnText="Lorem Ipsum"
         />
