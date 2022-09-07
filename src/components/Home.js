@@ -13,7 +13,7 @@ function Home() {
         <Section 
             title="MOON"
             description="Beyond The Cloud"
-            backgroundImg="model-s.jpg"
+            backgroundImg="white_satellite.jpg"
             leftBtnText="Moon Operating"
             rightBtnText="Online Network"
         />
