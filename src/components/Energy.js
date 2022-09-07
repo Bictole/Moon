@@ -7,7 +7,7 @@ function Energy() {
     <Page 
             title="Energy"
             description="How to provide energy to our Moon Cloud ?"
-            backgroundImg=""
+            backgroundImg="solar_panel.jpg"
             leftBtnText="Solar Or Nuclear"
     />
   )

@@ -7,7 +7,7 @@ function Hackathon() {
     <Page 
             title="Hackathon"
             description="Moon is part of the hackathon #2 of GottaGoHack !"
-            backgroundImg=""
+            backgroundImg="hackathon.jpg"
             leftBtnText="'A french worldwide Hackathon'"
     />
   )

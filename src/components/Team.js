@@ -7,7 +7,7 @@ function Team() {
     <Page 
             title="Team"
             description="Here is the Engineer Team on the Project"
-            backgroundImg=""
+            backgroundImg="team.jpg"
             leftBtnText="Victor Enguerrand Clément Oscar"
     />
   )

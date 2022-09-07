@@ -13,7 +13,7 @@ function Home() {
         <Section 
             title="MOON"
             description="Beyond The Cloud"
-            backgroundImg="model-s.jpg"
+            backgroundImg="white_satellite.jpg"
             leftBtnText="Moon Operating"
             rightBtnText="Online Network"
         />
@@ -21,7 +21,7 @@ function Home() {
         <Section 
             title="MOON 2"
             description="Beyond The Cloud"
-            backgroundImg="model-y.jpg"
+            backgroundImg="ceo.png"
             leftBtnText="A Mission"
             rightBtnText="Above the Cloud"
         />
@@ -29,32 +29,9 @@ function Home() {
         <Section 
             title="MOON 3"
             description="Beyond The Cloud"
-            backgroundImg="model-3.jpg"
+            backgroundImg="rocket.png"
             leftBtnText="Lorem Ipsum"
             rightBtnText="Lorem Ipsum"
-        />
-
-        <Section 
-            title="MOON 4"
-            description="Beyond The Cloud"
-            backgroundImg="model-x.jpg"
-            leftBtnText="Lorem Ipsum"
-            rightBtnText="Lorem Ipsum"
-        />
-
-        <Section 
-            title="MOON 5"
-            description="Beyond The Cloud"
-            backgroundImg="solar-panel.jpg"
-            leftBtnText="Lorem Ipsum"
-            rightBtnText="Lorem Ipsum"
-        />
-
-        <Section 
-            title="MOON 6"
-            description="Beyond The Cloud"
-            backgroundImg="accessories.jpg"
-            leftBtnText="Lorem Ipsum"
         />
     </Container>
   )
