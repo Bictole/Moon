@@ -33,29 +33,6 @@ function Home() {
             leftBtnText="Lorem Ipsum"
             rightBtnText="Lorem Ipsum"
         />
-
-        <Section 
-            title="MOON 4"
-            description="Beyond The Cloud"
-            backgroundImg="model-x.jpg"
-            leftBtnText="Lorem Ipsum"
-            rightBtnText="Lorem Ipsum"
-        />
-
-        <Section 
-            title="MOON 5"
-            description="Beyond The Cloud"
-            backgroundImg="solar-panel.jpg"
-            leftBtnText="Lorem Ipsum"
-            rightBtnText="Lorem Ipsum"
-        />
-
-        <Section 
-            title="MOON 6"
-            description="Beyond The Cloud"
-            backgroundImg="accessories.jpg"
-            leftBtnText="Lorem Ipsum"
-        />
     </Container>
   )
 }
