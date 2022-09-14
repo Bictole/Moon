@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Fade from 'react-reveal/Fade'
 
 import LogoComponent from './LogoComponent'
+import Header from './Header'
 
 const Wrap = styled.div`
 width: 100vw;
@@ -66,31 +67,31 @@ const Buttons = styled.div`
 function Page({title, description, leftBtnText, rightBtnText, backgroundImg}) {
     return (
         <>
-        <LogoComponent/>
-        <Wrap bgImage={backgroundImg}>
-            <Fade bottom>
-                <ItemText>
-                    <h1>{title}</h1>
-                    <p>{description}</p>
-                </ItemText>
-            </Fade>
-            
-
-            <Buttons>
+            <Header />
+            <Wrap bgImage={backgroundImg}>
                 <Fade bottom>
-                    <ButtonGroup>
-                        <LeftButton>{leftBtnText}</LeftButton>
-                        {   
-                            rightBtnText && 
-                            <RightButton>{rightBtnText}</RightButton>
-                        }
-                    </ButtonGroup>
+                    <ItemText>
+                        <h1>{title}</h1>
+                        <p>{description}</p>
+                    </ItemText>
                 </Fade>
                 
-                <DownArrow src="/images/down-arrow.svg" />
-            </Buttons>
-        
-        </Wrap>
+
+                <Buttons>
+                    <Fade bottom>
+                        <ButtonGroup>
+                            <LeftButton>{leftBtnText}</LeftButton>
+                            {   
+                                rightBtnText && 
+                                <RightButton>{rightBtnText}</RightButton>
+                            }
+                        </ButtonGroup>
+                    </Fade>
+                    
+                    <DownArrow src="/images/down-arrow.svg" />
+                </Buttons>
+            
+            </Wrap>
         </>
     )
 }
