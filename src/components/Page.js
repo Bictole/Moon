@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import Fade from 'react-reveal/Fade'
 
-import LogoComponent from './LogoComponent'
 import Header from './Header'
 
 const Wrap = styled.div`
