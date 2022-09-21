@@ -30,8 +30,8 @@ function Home() {
             title="MOON 3"
             description="Beyond The Cloud"
             backgroundImg="rocket.png"
-            leftBtnText="Lorem Ipsum"
-            rightBtnText="Lorem Ipsum"
+            leftBtnText="To Reach"
+            rightBtnText="The Stars"
         />
     </Container>
   )
