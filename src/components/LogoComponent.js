@@ -7,6 +7,7 @@ display: inline-block;
 font-family: 'Pacifico',cursive;
 z-index:3;
 transition: transform .2s;
+color: #5b615f;
 &:hover {
   transform: scale(1.2);
 }

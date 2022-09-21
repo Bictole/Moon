@@ -27,6 +27,7 @@ flex: 1;
 
 a {
     font-weight: 600;
+    color: #5b615f;
     text-transform: uppercase;
     padding: 0 10px;
     flex-wrap: nowrap;
